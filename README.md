@@ -2,7 +2,7 @@
 
 A simple Clojure program that outputs the number of tweets published to your timeline by users that you follow. (The output is the number of tweets per user, considered over a period of the last 800 tweets published to your timeline.)
 
-Twitter's `[statuses/home-timeline](https://dev.twitter.com/docs/api/1.1/get/statuses/home_timeline)` resource is used to access tweet data. (Twitter limits the number of tweets that can be obtained using this resource to 800.)
+Twitter's [statuses/home-timeline](https://dev.twitter.com/docs/api/1.1/get/statuses/home_timeline) resource is used to access tweet data. (Twitter limits the number of tweets that can be obtained using this resource to 800.)
 
 ## Usage
 
